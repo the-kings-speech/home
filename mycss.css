@@ -1,0 +1,128 @@
+@import url(fonts.googleapis.com/css?family=Open+Sans:400,700,800,300);
+
+body {
+    margin: 0;
+    padding: 0;
+    line-height: 1.50;
+    font-family: open-sans, helvetica;
+    font-size: 16px;
+}
+header {
+    padding: 90px 0;
+    text-align: center;
+    color: #ffffff;
+    background-color: #864846;
+}
+header h3 {
+    margin: 10px;
+    background-color: #a0a0ee;
+    border-radius: 25px;
+}
+span {
+    text-decoration: underline;
+    color: #00f;
+}
+
+section {
+    text-align: center;
+    color: #000;
+    background: #249;
+    padding: 50px 0;
+}
+
+.quotes h2 {
+    color: #dd0000;
+    text-decoration: underline;
+}
+.quotes #quotes {
+    color: violet;
+    font-size: 24px;
+}
+cite {
+    color: beige;
+}
+cite:before {
+    content: '-';
+    padding: 0 0 0 10px;
+}
+
+#poetry {
+    background-color: #bbaa00;
+    color: indigo;
+    line-height: 1.25;
+}
+#poetry h1 {
+    text-decoration: underline;
+    color: blue;
+}
+
+#idioms {
+    background-color: #ddaa00;
+    line-height: 1.25;
+    color: #00f;
+}
+#idioms h1 {
+    color: #cc66cc;
+    text-decoration: underline;
+}
+footer {
+    color: #fff;
+    background: #000;
+    padding: 32px 0;
+    text-align: center;
+}
+
+ul {
+    margin: 10px auto;
+    font-size: 16px;
+}
+li {
+    display: inline-block;
+    list-style: none;
+    padding: 10px 15px;
+    font-size: 1.5em;
+}
+ul a {
+    text-decoration: none;
+    color: #fff;
+}
+ footer p {
+    color: #c0c0c0;
+    font-size: 12px;
+ }
+
+ @media screen and (max-width: 480px) {
+     body {
+	 font-size: 14px;
+	 line-height: 1.25;
+     }
+
+     header h1 {
+	 padding: 0 auto 20px auto;
+	 margin: 0 auto 20px auto;
+     }
+
+     header h3 {
+	 border-radius: 10px;
+	 padding: 0 auto 50px auto;
+	 margin: 0 auto 30px auto;
+     }
+
+     section blockquote {
+	 font-size: 14px;
+     }
+
+     footer ul li {
+	 display: block;
+	 font-size: 13px;
+	 padding: 0 auto;
+	 margin: 0 auto;
+     }
+     footer p {
+	 font-size: 12px;
+     }
+     footer {
+	 margin: auto;
+	 padding: auto;
+     }
+ }
