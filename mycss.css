@@ -6,12 +6,12 @@ body {
     line-height: 1.50;
     font-family: open-sans, helvetica;
     font-size: 16px;
+    background-color: #864846;
 }
 header {
     padding: 90px 0;
     text-align: center;
     color: #ffffff;
-    background-color: #864846;
 }
 header h3 {
     margin: 10px;
@@ -26,18 +26,20 @@ span {
 section {
     text-align: center;
     color: #000;
-    background: #249;
+    background: #bb0;
     padding: 50px 0;
+    margin: 10px;
+    border-radius: 30px;
+    box-shadow: 3px 3px 3px 2px #aa0, -3px -1px 3px 2px #aa0;
+    line-height: 1.2;
 }
 
-.quotes h2 {
-    color: #dd0000;
+section h2, h1 {
+    margin-top: -10px;
+    color: #00f;
     text-decoration: underline;
 }
-.quotes #quotes {
-    color: violet;
-    font-size: 24px;
-}
+
 cite {
     color: beige;
 }
@@ -46,25 +48,6 @@ cite:before {
     padding: 0 0 0 10px;
 }
 
-#poetry {
-    background-color: #bbaa00;
-    color: indigo;
-    line-height: 1.25;
-}
-#poetry h1 {
-    text-decoration: underline;
-    color: blue;
-}
-
-#idioms {
-    background-color: #ddaa00;
-    line-height: 1.25;
-    color: #00f;
-}
-#idioms h1 {
-    color: #cc66cc;
-    text-decoration: underline;
-}
 footer {
     color: #fff;
     background: #000;
@@ -102,12 +85,6 @@ ul a {
 	 margin: 0 auto 20px auto;
      }
 
-     header h3 {
-	 border-radius: 10px;
-	 padding: 0 auto 50px auto;
-	 margin: 0 auto 30px auto;
-     }
-
      section blockquote {
 	 font-size: 14px;
      }
@@ -120,6 +97,7 @@ ul a {
      }
      footer p {
 	 font-size: 12px;
+	 margin-left: 30px;
      }
      footer {
 	 margin: auto;
